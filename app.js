@@ -39,6 +39,6 @@ app.post("/", function(req, res) {
 
 
 
-app..listen(process.env.PORT || 8080, function() {
+app.listen(process.env.PORT || 8080, function() {
   console.log("Server is listening on port 8080");
 });
